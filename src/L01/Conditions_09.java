@@ -13,7 +13,7 @@ public class Conditions_09 {
 
         //true כאשר נשתמש בטיפוס בוליאני אין צורך להשוותו לערך
         //true כי בצורה דיפולטיבית המשתנה נבדק האם הוא מכיל בתוכו
-        if (flag) {
+        if (0>1) {
             //if "flag" contains "true"
             System.out.println("flag is true");
 
@@ -23,7 +23,7 @@ public class Conditions_09 {
         }
 
         // (!flag) is equal to (flag==false)
-        if (!flag) {
+        if (!(0>1)) {
             //if "flag" contains "false"
             System.out.println("flag is false");
         } else {

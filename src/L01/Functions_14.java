@@ -19,7 +19,9 @@ public class Functions_14 {
     //function that does not get parameters and does not return value
     static void PrintHello()
     {
+       
         System.out.println("Hello");
+
     }
 
     //function that gets parameters and does not return value

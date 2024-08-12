@@ -11,7 +11,6 @@ public class Loops_13 {
             whileCounter++;
         }
 
-
         System.out.println("------------do-while------------------");
         int doCounter = 0;
         do {
@@ -24,5 +23,15 @@ public class Loops_13 {
         for (int forCounter = 0; forCounter < limit; forCounter++) {
             System.out.println(forCounter);
         }
+
+        System.out.println("-------------for------------------");
+        int forCounter = 0;
+        for (; ; ) {
+            if(forCounter==9)
+                break;
+            System.out.println(forCounter);
+            forCounter++;
+        }
+
     }
 }

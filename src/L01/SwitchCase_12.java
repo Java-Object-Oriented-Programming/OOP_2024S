@@ -51,7 +51,7 @@ public class SwitchCase_12 {
 
 
         int[] grades = new int[]{100, 90, 83, 64, 53, 20};
-
+        // (double)1/2; 1/2+0.0  1/2.0
         for (int grade : grades) {
 
             System.out.println("\n----------grade : "+grade+"-------------------");
